@@ -1,0 +1,92 @@
+{
+  "name": { "first": "john", "last": "doe" },
+  "email": "johndoe@email.com",
+  "phone": { "code": "US", "number": "+1 212 341 2321" },
+  "payments": {
+    "recent": 1,
+    "saved": [
+      {
+        "type": "mobile",
+        "number": "+1 2*******21",
+        "details": { "code": "US", "number": "+1 212 341 2321" }
+      },
+      {
+        "type": "card",
+        "number": "41************86",
+        "details": {
+          "number": "4111111111186",
+          "name": "John Doe",
+          "cvv": "221",
+          "expiry": "12/26"
+        }
+      }
+    ]
+  },
+  "address": {
+    "name": "My address 1",
+    "region": "region 1",
+    "country": "Country 1",
+    "city": "City 1",
+    "street": "1st street",
+    "address": "Address 1",
+    "location": {
+      "type": "home",
+      "info": "House no A5, 3rd floor",
+      "deliveryFee": { "amount": 40, "currency": "USD" }
+    }
+  },
+  "reservations": ["2", "3", "5"],
+  "orders": ["1", "2", "3"],
+  "notifications": {
+    "items": [
+      {
+        "title": "You have a reservation!!",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae lectus at libero venenatis commodo. Fusce vel eleifend mauris. Sed efficitur lacus vel bibendum vulputate. Nulla facilisi. In hac habitasse platea dictumst. Integer sed lectus auctor, suscipit nisl in, bibendum dui. Vivamus sit amet metus ut elit auctor tincidunt. Proin in sagittis arcu. ",
+        "dateCreated": "2022-09-15T10:30:00Z",
+        "unread": true
+      },
+      {
+        "title": "This is a notification!!",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae lectus at libero venenatis commodo. Fusce vel eleifend mauris. Sed efficitur lacus vel bibendum vulputate. Nulla facilisi. In hac habitasse platea dictumst. Integer sed lectus auctor, suscipit nisl in, bibendum dui. Vivamus sit amet metus ut elit auctor tincidunt. Proin in sagittis arcu. ",
+        "dateCreated": "2013-11-11T00:00:00Z",
+        "unread": true
+      },
+      {
+        "title": "This is a notification!!",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae lectus at libero venenatis commodo. Fusce vel eleifend mauris. Sed efficitur lacus vel bibendum vulputate. Nulla facilisi. In hac habitasse platea dictumst. Integer sed lectus auctor, suscipit nisl in, bibendum dui. Vivamus sit amet metus ut elit auctor tincidunt. Proin in sagittis arcu. ",
+        "dateCreated": "2022-09-15T10:30:00Z",
+        "unread": false
+      },
+      {
+        "title": "This is a notification!!",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae lectus at libero venenatis commodo. Fusce vel eleifend mauris. Sed efficitur lacus vel bibendum vulputate. Nulla facilisi. In hac habitasse platea dictumst. Integer sed lectus auctor, suscipit nisl in, bibendum dui. Vivamus sit amet metus ut elit auctor tincidunt. Proin in sagittis arcu. ",
+        "dateCreated": "2022-09-15T10:30:00Z",
+        "unread": false
+      }
+    ],
+    "new": true
+  },
+  "favourites": {
+    "18": { "quantity": 1, "total": 1000 },
+    "6": { "quantity": 2, "size": "m", "color": "blue", "total": 55 }
+  },
+  "cart": {
+    "total": 5530,
+    "items": {
+      "11": { "quantity": 1, "storage": "256gb", "total": 1400 },
+      "12": { "quantity": 2, "lens": "70-200mm", "total": 3500 },
+      "23": {
+        "quantity": 1,
+        "size": "large",
+        "total": 9
+      },
+      "25": {
+        "quantity": 2,
+        "size": "large",
+        "crust": "normal",
+        "extras": ["extra cheese"],
+        "total": 121
+      }
+    }
+  }
+}

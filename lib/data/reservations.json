@@ -1,0 +1,57 @@
+[
+{
+    "id": "1",
+    "name": "John Doe",
+    "email": "johndoe@gmail.com",
+    "phone": { "code": "US", "number": "+1 212 341 2321" },
+    "date": "2022-10-15T08:00:00.000Z",
+    "occasion": "dinner",
+    "table-size": 4,
+    "preferred-position": 7,
+    "status": "active"
+},
+{
+    "id": "2",
+    "name": "Jane Smith",
+    "email": "janesmith@gmail.com",
+    "phone": { "code": "US", "number": "+1 212 555 1234" },
+    "date": "2022-10-16T12:30:00.000Z",
+    "occasion": "lunch",
+    "table-size": 2,
+    "preferred-position": 3,
+    "status": "inactive"
+},
+{
+    "id": "3",
+    "name": "Mike Johnson",
+    "email": "mikejohnson@gmail.com",
+    "phone": { "code": "US", "number": "+1 212 789 5678" },
+    "date": "2022-10-17T19:00:00.000Z",
+    "occasion": "dinner",
+    "table-size": 6,
+    "preferred-position": 5,
+    "status": "active"
+},
+{
+    "id": "4",
+    "name": "Sarah Davis",
+    "email": "sarahdavis@gmail.com",
+    "phone": { "code": "US", "number": "+1 212 987 6543" },
+    "date": "2022-10-18T20:15:00.000Z",
+    "occasion": "birthday",
+    "table-size": 3,
+    "preferred-position": 2,
+    "status": "inactive"
+},
+{
+    "id": "5",
+    "name": "Alex Wilson",
+    "email": "alexwilson@gmail.com",
+    "phone": { "code": "US", "number": "+1 212 444 7777" },
+    "date": "2022-10-19T17:45:00.000Z",
+    "occasion": "dinner",
+    "table-size": 5,
+    "preferred-position": 6,
+    "status": "canceled"
+}
+]
